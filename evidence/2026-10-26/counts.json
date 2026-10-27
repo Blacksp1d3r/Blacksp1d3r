@@ -1,0 +1,25 @@
+{
+  "date_utc": "2026-10-26",
+  "collected_at_date_utc": "2026-10-27",
+  "source": "GitHub REST Search API /search/issues",
+  "account": "Blacksp1d3r",
+  "metrics": [
+    {
+      "name": "pull_requests_created",
+      "query": "is:pr user:Blacksp1d3r created:2026-10-26",
+      "total_count": 656
+    },
+    {
+      "name": "pull_requests_created_and_merged_same_day",
+      "query": "is:pr user:Blacksp1d3r created:2026-10-26 merged:2026-10-26",
+      "total_count": 557
+    },
+    {
+      "name": "pull_requests_merged",
+      "query": "is:pr user:Blacksp1d3r merged:2026-10-26",
+      "total_count": 561
+    }
+  ],
+  "privacy": "Aggregated counts and search filters only. No private repository names, titles, PR bodies, screenshots, email addresses, secrets, or personal data are included.",
+  "limitations": "Includes private repositories accessible to the connected account. Public visitors may not reproduce the same totals. This is a dated count, not a world-record or code-quality claim."
+}
