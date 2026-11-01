@@ -1,3 +1,7 @@
+## Projectoverstijgende eigenaarsregel — code die je kunt leren lezen (2026-11-01)
+
+**Vanaf nu voor alle nieuwe en substantieel aangepaste code:** elk menselijk onderhouden bronbestand heeft een duidelijke titel, doel en korte uitleg van de werking, aanroepers/afhankelijkheden en belangrijke risico's; belangrijke functies en complexe blokken verklaren invoer, uitvoer en *waarom*. Schrijf begrijpelijk Nederlands waar mogelijk, verklaar vaktermen kort, houd commentaar waarheidsgetrouw en compact. Vereenvoudig en orden code als tests bewijzen dat functionaliteit, beveiliging, API's, servicebindings en rollback gelijk blijven. **Geen massale legacy-herschrijving of automatische serververwijdering.** Back-ups, uploads, laatste installateurs, actieve releases en herstelpunten blijven beschermd; onbekend = behouden. Respecteer bestaande projectclaims en CI. Volledige projectoverstijgende roadmap: [CODE_CLARITY_SERVER_CLEANUP_ROADMAP.md](CODE_CLARITY_SERVER_CLEANUP_ROADMAP.md). Deze aanvulling vervangt geen bestaande veiligheids- en toolblokkeringsregels.
+
 # AGENTS.md — werkafspraken bij technische toolblokkades
 
 ## Eigenaarsregel — directe operatoruitvoering (2026-10-31)
